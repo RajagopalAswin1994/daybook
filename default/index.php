@@ -1,4 +1,36 @@
-<?php include './includes/header.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+
+    
+<!-- Mirrored from mannatthemes.com/dastone/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Sep 2021 15:49:07 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Dastone - Admin & Dashboard Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+        <meta content="" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- jvectormap -->
+        <link href="../plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+
+        <!-- DataTables -->
+        <link href="../plugins/datatables/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/datatables/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+        <!-- Responsive datatable examples -->
+        <link href="../plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
+
+        <!-- App css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="../plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
 
 <body class="">
     <!-- Left Sidenav -->
@@ -19,11 +51,17 @@
         <div class="menu-content h-100" data-simplebar>
             <ul class="metismenu left-sidenav-menu">
                 <li class="menu-label mt-0">Personal</li>
-                <li><a href="index.php"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Dashboard</span><span class="menu-arrow"></span></a></li>                 
-                <li><a href="daybook.php"> <i data-feather="plus-square" class="align-self-center menu-icon"></i><span>Expenses</span><span class="menu-arrow"></span></a></li>                                 
+                <li>
+                        <a href="javascript: void(0);"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Dashboard</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                        <ul class="nav-second-level" aria-expanded="false">
+                            <li class="nav-item"><a class="nav-link" href="./daybook/"><i class="ti-control-record"></i>Daybook R</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="sales-index.html"><i class="ti-control-record"></i>--</a></li>  -->
+                        </ul>
+                    </li>
+                <li>                    
                 <hr class="hr-dashed hr-menu">  
-                <li class="menu-label mt-0"> <a href="">Reactler</a> </li>
-                <li class="menu-label mt-0"> <a href="">Hayagriva's</a> </li>
+                <!-- <li class="menu-label mt-0"> <a href="">Reactler</a> </li>
+                <li class="menu-label mt-0"> <a href="">Hayagriva's</a> </li> -->
             </ul>             
         </div>
     </div>

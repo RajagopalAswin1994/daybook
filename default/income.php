@@ -21,7 +21,7 @@
                 <li class="menu-label mt-0">Personal</li>
                 <li><a href="index.php"> <i data-feather="home" class="align-self-center menu-icon"></i><span>Dashboard</span><span class="menu-arrow"></span></a></li>
                 <li><a href="daybook.php"> <i data-feather="minus-square" class="align-self-center menu-icon"></i><span>Expenses</span><span class="menu-arrow"></span></a></li>
-                <li><a href="daybook.php"> <i data-feather="plus-square" class="align-self-center menu-icon"></i><span>Income</span><span class="menu-arrow"></span></a></li>
+                <li><a href="income.php"> <i data-feather="plus-square" class="align-self-center menu-icon"></i><span>Income</span><span class="menu-arrow"></span></a></li>
                 <hr class="hr-dashed hr-menu">
                 <li class="menu-label mt-0"> <a href="">Reactler</a> </li>
                 <li class="menu-label mt-0"> <a href="">Hayagriva's</a> </li>
@@ -256,7 +256,6 @@
                                             <th>Particular</th>
                                             <th>Amount</th>
                                             <th>Type</th>
-                                            <th>Description</th>
                                             <th>Description</th>
                                         </tr>
                                     </thead>

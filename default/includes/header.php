@@ -15,19 +15,27 @@
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- jvectormap -->
-        <link href="../plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+        <link href="../../plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+        <link href="../../plugins/dropify/css/dropify.min.css" rel="stylesheet">
 
         <!-- DataTables -->
-        <link href="../plugins/datatables/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
-        <link href="../plugins/datatables/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../plugins/datatables/dataTables.bootstrap5.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../plugins/datatables/buttons.bootstrap5.min.css" rel="stylesheet" type="text/css" />
         <!-- Responsive datatable examples -->
-        <link href="../plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
+        <link href="../../plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" /> 
+
+        <!-- Plugins css -->
+        <link href="../../plugins/select2/select2.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../plugins/huebee/huebee.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../plugins/timepicker/bootstrap-material-datetimepicker.css" rel="stylesheet">
+        <link href="../../plugins/bootstrap-touchspin/css/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
-        <link href="../plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/metisMenu.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../plugins/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/app.min.css" rel="stylesheet" type="text/css" />
 
     </head>
